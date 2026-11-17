@@ -1,7 +1,6 @@
 import asyncio
 
-from source import start
-import uvloop
+from hostmon import start
 
 
 async def main():
@@ -9,5 +8,5 @@ async def main():
 
 
 if __name__ == '__main__':
-    uvloop.install()
+    # uvloop.install()
     asyncio.run(main())
